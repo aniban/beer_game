@@ -15,5 +15,5 @@ The simulation is built on python3 with streamlit as interface.
 #By end of week (n) - Backlog(n) created if Despatch shipment(n) < order just received + last week's backlog
 #By end of week (n) - Supply(n) is received = Upstream_Despatch(n-2) <in case of factory, = Factory_Order(n-2)>
 
-# Variables in use : inventory, order (placed), despatch, backlog, supply (received) 
-# across as matrix of [lvl][n] where n is current week and lvl is supply chain level
+Variables in use : inventory, order (placed), despatch, backlog, supply (received) 
+across as matrix of [lvl][n] where n is current week and lvl is supply chain level
