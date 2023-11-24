@@ -1,8 +1,6 @@
+# 50 week supply chain disruption simulation by Ani_M
 
 import streamlit as st
-# if streamlit is not found in path, run in cmd window as -
-# python -m streamlit run Beer_game_streamlit.py
-
 st.title('Supply Chain Simulation')
 st.write('To study the impact of a sudden market disruption on supply chain with information lags.')
 st.write('Effect of variable Ordering strategies and Inventory norms across the 4 levels:')
