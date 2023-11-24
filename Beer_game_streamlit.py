@@ -119,7 +119,7 @@ ax2.legend()
 st.subheader('Inventory levels maintained (in weeks of demand)')
 st.pyplot(fig2)
 
-st.write('Average weekly inventory level maintained across network is', str(int(sum(total_inventory)/50)),'units.')
+st.write('Average weekly inventory level maintained across network is', str(int(sum(total_inventory)/50)),'units. (expected',str(4*inv_norm),'units as per norm)')
 inv_str = ''
 for lvl in range(4):
     lvl_name = ('Factory', 'Distributor', 'Stockist', 'Retailer')[lvl]
